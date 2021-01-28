@@ -1,0 +1,96 @@
+*{
+	margin: 50;
+	padding: 50;
+	font-family: cursive;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(../11.jpeg);
+	height:150vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 20px;
+	border: 3px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+ul li.active a{
+	background-color: #000;
+	color: #fff;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 80px;
+}
+
+.title h2{
+	color: #fff;
+	font-size: 90px;
+}
+
+.title h2{
+	color: #fff;
+	font-size: 100px;
+}
+
+.title h2{
+	color: #fff;
+	font-size: 110px;
+}
+.button{
+	position: absolute;
+	top: 66%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #000;
+	color: #fff;
+}
